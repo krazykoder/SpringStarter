@@ -6,6 +6,11 @@ import org.springframework.stereotype.Component;
 
 @Component
 public class WelcomeService {
+	
+	public String rootService () {
+		return "Welcome to this webpage";
+	}
+	
 	public String retrieveWelcomeMessageByTime() {
 
 		// TODO: add a complex logic based on time in the day to welcome
